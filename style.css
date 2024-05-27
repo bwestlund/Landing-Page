@@ -1,10 +1,11 @@
 
 * {
-    /*outline: 2px solid red;*/
+    
 }
 
 
 div.top {
+  display: flex;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 10px;
@@ -17,8 +18,8 @@ div.top {
   align-content: center;
 }
 div.topNav {
-  align-self: center;
   display: flex;
+  align-self: center;
 }
 
 div.Links {
@@ -35,6 +36,8 @@ div.Logo {
 }
 
 div.topBody {
+  outline: 2px solid red;
+  display: flex;
   padding-top: 50px;
   padding-bottom: 50px;
   padding-left: 100px;
@@ -43,16 +46,30 @@ div.topBody {
   color: #E5E7Eb;
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
-  display: flex;
   justify-content: space-between;
   align-content: center;
 }
 
+div.leftTop{
+  outline: 2px solid red;
+  flex: 3 0 50%;
+}
+
+div.rightTop{
+  outline: 2px solid red;
+  background-color: #E5E7Eb;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  flex: 4 1 0%;
+}
 
 img {
-  max-width: 100%;
+  max-width: 300px;
   height: auto;
-
+  flex: 0 0  auto;
+  
+  flex-direction: column;
 }
 
 .topHeaderTxt {

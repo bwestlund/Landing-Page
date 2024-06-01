@@ -1,0 +1,145 @@
+
+* {
+  outline: 2px solid red;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* This controls the top section of the page and its layout */
+.top {
+  padding-left: 10%;
+  padding-right: 10%;
+  /* padding-top: 10px; */
+  background-color: #1F2937;
+  color: #E5E7Eb;
+  font-size: 18px;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  justify-content: space-between;
+  align-content: center;
+}
+/* This is for the nav bar at the top,
+   it has two sections the Header Logo and the Links */
+.topNav {
+  display: flex;
+  align-self: center;
+}
+.Links {
+  margin-left: 10px;
+}
+.Logo {
+  
+  align-self: center;
+  font-weight: 600;
+  text-size-adjust: 24px;
+  color: #F9FAF8;
+}
+
+/* This is the main hero section of the top with the Hero Heading
+  also the hero description and the hero image */
+.topBody {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #1F2937;
+  color: #E5E7Eb;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftTop{
+  flex: 1;
+}
+
+.rightTop{
+  background-color: #E5E7Eb;
+  /* border-radius: 30px; */
+  flex: 0;
+}
+
+.Body{
+  display: flex;
+  flex-direction: column;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.upperBody{
+  text-align: center;
+  padding: 15px;
+}
+
+.lowerBody{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.itemDisplay{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  flex-grow: 1;
+}
+.boxImage{
+  width: 125px;
+  height: 125px;
+  margin: 15px;
+  border-radius: 15px;
+  outline: 4px solid blue;
+  flex 1 1 auto;
+}
+.itemDiscription{
+  max-width: 125px;
+  text-align: center;
+  flex-wrap: wrap;
+  flex 0 1 auto;
+}
+img {
+  max-width: 300px;
+  height: auto;
+  flex: 0 0  auto;
+  
+  flex-direction: column;
+}
+
+.topHeaderTxt {
+  margin: 0px;
+  line-height: 1;
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 800;
+}
+
+button {
+  border-radius: 8px;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
+.quote {
+  background-color: #E5E7Eb;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.banner {
+  background-color: 
+  color: #F9FAF8;
+}

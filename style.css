@@ -73,55 +73,57 @@
 }
 .topContent button{
   width: 100px;
-  height: 30px;
+  height: 25px;
   margin-top: 10px;
   background-color: #3882F6;
   color: #F9FAF8;
   font-weight: bold;
   border: 0;
   box-shadow: none;
-  border-radius: 8px;
+  border-radius: 5px;
 }
 
 .mainBody{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 100px;
   display: flex;
   flex-direction: column;
   flex: 1;
 }
 .upperBody{
-  outline: 2px solid green;
   font-size: 36px;
   font-weight: bolder;
   color: #1F2937;
   text-align: center;
-  padding: 10px;
-  flex: 1;
+  padding: 25px;
 }
 ul {
+  padding: 0;
+  margin: 0;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  outline: 2px solid green;
-  flex: 1;
 }
 li {
-  display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  outline: 2px solid green;
+  display: flex;
   flex: 1;
 }
 .boxImage {
-  width: 250px;
-  height: 250px;
-  background-color: white;
-  border: 4px #3882F6;
+  width: 175px;
+  height: 175px;
+  outline: 4px solid #3882F6;
   border-radius: 8px;
-  flex: 1;
+  flex: 1 0 auto;
 }
 .itemDiscription{
-  outline: 2px solid green;
-  flex: 1;
+  padding-top: 5px;
+  width: 175px;
+  text-align: center;
+  flex: 0 1 auto;
 }
 .quote{
   background: peachpuff;
